@@ -1,7 +1,23 @@
-body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; }
-nav { background: #24292e; padding: 15px; border-radius: 8px; margin-bottom: 30px; }
-nav a { color: white; margin-right: 20px; text-decoration: none; font-weight: bold; }
-.certif-card { display: flex; align-items: center; border: 1px solid #ddd; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 2px 2px 10px rgba(0,0,0,0.05); }
-.certif-card img { width: 120px; height: auto; margin-right: 30px; }
-.btn-download { display: inline-block; background: #007bff; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; margin-top: 10px; }
-.btn-download:hover { background: #0056b3; }
+/* Styles Généraux */
+body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+main { max-width: 1000px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+
+/* Navigation */
+nav { background: #2c3e50; padding: 1rem; }
+nav ul { list-style: none; padding: 0; display: flex; justify-content: center; }
+nav ul li { margin: 0 15px; }
+nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+nav ul li a:hover, .active { color: #3498db; }
+
+/* Cartes de Certification */
+.certif-card { display: flex; align-items: center; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 25px; transition: 0.3s; }
+.certif-card:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+.certif-card img { width: 130px; height: auto; margin-right: 25px; border-radius: 5px; }
+.certif-text h3 { margin-top: 0; color: #2c3e50; }
+
+/* Boutons */
+.btn { display: inline-block; background: #3498db; color: white; padding: 10px 18px; border-radius: 5px; text-decoration: none; margin-top: 10px; font-size: 0.9em; }
+.btn:hover { background: #2980b9; }
+
+/* Footer */
+footer { text-align: center; padding: 20px; font-size: 0.8em; color: #777; }
