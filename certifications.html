@@ -2,72 +2,69 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mes Certifications - Salim Ahmat Djalal</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications | Salim Ahmat Djalal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
     <header>
         <nav>
-            <a href="index.html">Accueil</a>
-            <a href="certifications.html">Certifications</a>
-            <a href="veille.html">Veille Technologique</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="certifications.html" class="active">Certifications</a></li>
+                <li><a href="veille.html">Veille Technologique</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Mes Certifications</h1>
-
-        <section>
-            <h2>Première Année (BTS SIO 1)</h2>
-            
-            <div class="certif-card">
-                <img src="image/secnum.png" alt="SecNumacadémie">
-                <div class="content">
-                    <h3>SecNumacadémie (ANSSI)</h3>
-                    <p><strong>Résumé :</strong> Sensibilisation à la sécurité des systèmes d'information. Cette certification couvre les bases de l'hygiène informatique.</p>
-                    <ul>
-                        <li>Panorama de la SSI</li>
-                        <li>Sécurité de l'authentification</li>
-                        <li>Sécurité sur le Web</li>
-                    </ul>
-                    <a href="pdf/synthese_secnum.pdf" class="btn-download" target="_blank">📄 Voir la fiche de synthèse</a>
-                </div>
-            </div>
-
-            <div class="certif-card">
-                <img src="image/cisco.png" alt="Cisco CCNA 1">
-                <div class="content">
-                    <h3>CISCO CCNA1</h3>
-                    <p><strong>Résumé :</strong> Introduction aux réseaux. Apprentissage de l'architecture, du câblage, et de la configuration de base des équipements.</p>
-                    <ul>
-                        <li>Modèles OSI et TCP/IP</li>
-                        <li>Protocoles et services</li>
-                        <li>Configuration de routeurs/switchs</li>
-                    </ul>
-                    <a href="pdf/synthese_cisco.pdf" class="btn-download" target="_blank">📄 Voir la fiche de synthèse</a>
-                </div>
-            </div>
+        <section class="intro-page">
+            <h1>Mes Certifications</h1>
+            <p>Dans le cadre de ma formation en BTS SIO SISR, j'ai obtenu et suivi plusieurs certifications professionnelles qui attestent de mes compétences en réseaux et cybersécurité.</p>
         </section>
 
-        <section>
-            <h2>Deuxième Année (BTS SIO 2)</h2>
-
-            <div class="certif-card">
-                <img src="image/thm.png" alt="TryHackMe">
-                <div class="content">
-                    <h3>TryHackMe</h3>
-                    <p><strong>Résumé :</strong> Plateforme d'apprentissage pratique de la cybersécurité offensive et défensive via des environnements virtualisés.</p>
-                    <ul>
-                        <li>Exploitation de vulnérabilités</li>
-                        <li>Sécurité réseau avancée</li>
-                        <li>Analyse de logs et outils CTF</li>
-                    </ul>
-                    <a href="pdf/synthese_thm.pdf" class="btn-download" target="_blank">📄 Voir la fiche de synthèse</a>
-                </div>
+        <h2 class="year-title">Première Année</h2>
+        
+        <div class="certif-card">
+            <img src="image/secnum.png" alt="Logo SecNumacadémie">
+            <div class="certif-text">
+                <h3>SecNumacadémie (ANSSI)</h3>
+                <p>Le MOOC de l'ANSSI permet d'acquérir les fondamentaux de la sécurité des systèmes d'information (SSI).</p>
+                <p><strong>Sujets abordés :</strong> Panorama de la SSI, Sécurité de l'authentification, Sécurité sur le Web, Sécurité du nomadisme.</p>
+                <a href="pdf/synthese_secnum.pdf" class="btn" target="_blank">📄 Télécharger la fiche de synthèse</a>
             </div>
-        </section>
+        </div>
+
+        <div class="certif-card">
+            <img src="image/cisco.png" alt="Logo Cisco CCNA">
+            <div class="certif-text">
+                <h3>Cisco CCNA 1 : Introduction Networks</h3>
+                <p>Cette certification valide les connaissances sur l'architecture, les fonctions, les composants et les modèles d'Internet.</p>
+                <p><strong>Sujets abordés :</strong> Modèles OSI et TCP/IP, adressage IPv4/IPv6, configuration de base des routeurs et commutateurs (switches).</p>
+                <a href="pdf/synthese_cisco.pdf" class="btn" target="_blank">📄 Télécharger la fiche de synthèse</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <h2 class="year-title">Deuxième Année</h2>
+
+        <div class="certif-card">
+            <img src="image/thm.png" alt="Logo TryHackMe">
+            <div class="certif-text">
+                <h3>TryHackMe</h3>
+                <p>Formation pratique à travers des laboratoires virtuels couvrant les aspects offensifs et défensifs de la cybersécurité.</p>
+                <p><strong>Sujets abordés :</strong> Analyse de vulnérabilités, Pentest, sécurité réseau, outils de sécurité (Nmap, Burp Suite, Wireshark).</p>
+                <a href="pdf/synthese_thm.pdf" class="btn" target="_blank">📄 Télécharger la fiche de synthèse</a>
+            </div>
+        </div>
     </main>
+
+    <footer>
+        <p>&copy; 2026 - Salim Ahmat Djalal</p>
+    </footer>
 
 </body>
 </html>
